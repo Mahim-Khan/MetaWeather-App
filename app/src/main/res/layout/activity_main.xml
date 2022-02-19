@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E8CBED"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_margin="0dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_above="@+id/lyoutId"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/component_1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="MetaWeather App"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="24sp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="2dp"
+                android:src="@drawable/pr" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/lyoutId"
+            android:layout_width="match_parent"
+            android:weightSum="6"
+            android:layout_height="80dp">
+
+            <Button
+                android:background="@drawable/two_color_curved"
+                android:layout_margin="5dp"
+                android:id="@+id/btn_getCityId"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:textAllCaps="true"
+                android:fontFamily="sans-serif"
+                android:layout_weight="2"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Get City Id" />
+
+            <Button
+                android:background="@drawable/two_color_curved1"
+                android:layout_margin="5dp"
+                android:id="@+id/btn_getWeatherByCityId"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:textAllCaps="true"
+                android:layout_weight="2"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Get Weather By City Id" />
+
+            <Button
+                android:background="@drawable/two_color_curved2"
+                android:layout_margin="5dp"
+                android:id="@+id/btn_getWeatherByCityName"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:fontFamily="sans-serif"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Get Weather By City Name" />
+        </LinearLayout>
+        <EditText
+            android:id="@+id/et_dataInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lyoutId"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/two_nocolor"
+            android:hint="City Name"
+            android:padding="10dp" />
+
+        <ListView
+            android:id="@+id/listViewId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/et_dataInput"
+            android:dividerHeight="3dp"
+            android:divider="@color/white"
+            android:padding="10dp">
+        </ListView>
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
