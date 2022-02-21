@@ -1,6 +1,5 @@
 # MetaWeather-App
 This app is Meta Weather showing app.
-https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white
 # Features
 1. First get any USA city id from "Get City Id"  button.
 2. then get weather in "Get City by Id"
