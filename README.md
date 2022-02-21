@@ -11,8 +11,7 @@ This app is Meta Weather showing app.
 3. Rest API
 4. Java
 # Output
-![w_splash](https://user-images.githubusercontent.com/60973245/154813881-641cf98a-ee0b-43b8-81af-10935c8bb824.png)
-![Screenshot_20220219-163929](https://user-images.githubusercontent.com/60973245/154813905-deb2e7e5-d72a-4f9a-af9e-e4ed76d49e3f.jpg)
+<img src="https://user-images.githubusercontent.com/60973245/154813881-641cf98a-ee0b-43b8-81af-10935c8bb824.png" width="400" height="600">  <img src="https://user-images.githubusercontent.com/60973245/154813905-deb2e7e5-d72a-4f9a-af9e-e4ed76d49e3f.jpg" width="400" height="600"> 
 
 
 # Bugs
